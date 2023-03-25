@@ -1,4 +1,4 @@
-package H071221099.Pertemuan_1;
+package H071221104.Pertemuan_1;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class No6 {
             double jariJari = inp.nextDouble();
 
             double luasLingkaran = Math.PI * Math.pow(jariJari, 2);
-            System.out.printf("Luas lingkaran adalah: %.2f ", luasLingkaran);
+            System.out.printf("Luas lingkaran adalah: %.2f", luasLingkaran);
         } catch (Exception e) {
             System.out.println("Hanya menerima angka");
         }

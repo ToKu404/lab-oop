@@ -1,4 +1,4 @@
-package H071221099.Pertemuan_1;
+package H071221104.Pertemuan_1;
 
 import java.util.Scanner;
 
@@ -10,21 +10,16 @@ public class No8 {
         try {
             System.out.print("Input angka yang ingin di cari : ");
             int inputAngka = inp.nextInt();
-            // angka[0][0]
-            // angka[0][1]
-            // angka[0][2]
-            // angka[1][0]
-            // angka[0]
+
             for (int i = 0; i < angka.length; i++) {
                 for (int j = 0; j < angka[i].length; j++) {
                     int angka1 = angka[i][j];
                     if (angka1 == inputAngka) {
-                        System.out.println("Found " + inputAngka + " at [" + i + "][" + j + "]");
-
+                        System.out.println("Found" + inputAngka + " at [" + i + "][" + j + "]");
+                        break;
                     }
                 }
             }
-
         } catch (Exception e) {
             System.out.println("Input harus berupa data integer (angka)");
         }
