@@ -1,3 +1,4 @@
+package H071221039.Pertemuan_3;
 public class Product {
     private String name;
     private int price;

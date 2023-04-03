@@ -1,3 +1,4 @@
+package H071221039.Pertemuan_3;
 public class Main2 {
     public static void main(String [] args) {
         Player player1= new Player("Mino", 30, 15);
