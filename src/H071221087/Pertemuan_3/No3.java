@@ -1,4 +1,4 @@
-package Praktikum3;
+package H071221087.Pertemuan_3;
 import java.util.ArrayList;
 import java.util.Scanner;
 
