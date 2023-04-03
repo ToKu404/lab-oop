@@ -1,3 +1,4 @@
+package H071221039.Pertemuan_1;
 import java.util.Scanner; // import library untuk menginput
 public class No8 {  // bagian kelas, dimana nama kelas disesuaikan dengan nama file
     public static void main(String[] args) { // main method tempat untuk mengeksekusi program

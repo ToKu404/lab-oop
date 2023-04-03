@@ -1,3 +1,4 @@
+package H071221039.Pertemuan_2;
 // pembuatan class
 class Cuboid{
     // attribute
