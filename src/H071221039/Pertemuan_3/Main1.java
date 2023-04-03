@@ -1,3 +1,4 @@
+package H071221039.Pertemuan_3;
 public class Main1 {
     public static void main(String[] args) {;
         Person person1 = new Person("Undertaker", "Man");
