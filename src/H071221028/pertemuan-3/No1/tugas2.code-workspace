@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../pertemuan-2/tugas2"
+		},
+		{
+			"path": "../No3"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../no2"
+		}
+	],
+	"settings": {
+		"java.debug.settings.onBuildFailureProceed": true
+	}
+}
