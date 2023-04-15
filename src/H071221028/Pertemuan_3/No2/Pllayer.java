@@ -1,4 +1,4 @@
-
+package H071221028.Pertemuan_3.No2;
 
 class Player{
     private String name;

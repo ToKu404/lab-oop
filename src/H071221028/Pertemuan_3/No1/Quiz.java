@@ -1,4 +1,4 @@
-
+package H071221028.Pertemuan_3.No1;
 public class Quiz {
     public static void main(String[] args) {
         Utils.selfDisplay();
