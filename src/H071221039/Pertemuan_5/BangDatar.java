@@ -1,5 +1,5 @@
 package H071221039.Pertemuan_5;
-public class BangunDatar {
+public class BangDatar {
     public double hitungKeliling(){
         return 0;
     }
@@ -8,7 +8,7 @@ public class BangunDatar {
     }
 }
 
-class Persegi extends BangunDatar {
+class Persegi extends BangDatar {
     private double sisi;
 
     public Persegi() {}
@@ -28,7 +28,7 @@ class Persegi extends BangunDatar {
     }
 }
 
-class PersegiPanjang extends BangunDatar {
+class PersegiPanjang extends BangDatar {
     private double panjang;
     private double lebar;
 
@@ -52,7 +52,7 @@ class PersegiPanjang extends BangunDatar {
     }
 }
 
-class Lingkaran extends BangunDatar {
+class Lingkaran extends BangDatar {
     private double jari;
 
     public Lingkaran() {}
@@ -72,7 +72,7 @@ class Lingkaran extends BangunDatar {
     }
 }
 
-class Segitiga extends BangunDatar {
+class Segitiga extends BangDatar {
     private double alas;
     private double sisikiri;
     private double sisikanan;
@@ -104,7 +104,7 @@ class Segitiga extends BangunDatar {
     }
 }
 
-class Trapesium extends BangunDatar {
+class Trapesium extends BangDatar {
     private double alas;
     private double sisimiring;
     private double atas;

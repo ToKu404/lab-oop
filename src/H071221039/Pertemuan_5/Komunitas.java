@@ -1,11 +1,12 @@
 package H071221039.Pertemuan_5;
-public class DaftarAnggota {
+public class Komunitas {
     private String nama;
     private String jenisKelamin;
     private String alamat;
     private String telepon;
     
-    public DaftarAnggota(String nama, String jenisKelamin, String alamat, String telepon) {
+    public Komunitas
+(String nama, String jenisKelamin, String alamat, String telepon) {
         this.nama = nama;
         this.jenisKelamin = jenisKelamin;
         this.alamat = alamat;
@@ -20,7 +21,7 @@ public class DaftarAnggota {
     }
 }
 
-class PengurusInti extends DaftarAnggota {
+class PengurusInti extends Komunitas {
     private String jabatan;
     private String masaJabatan;
     
@@ -36,7 +37,7 @@ class PengurusInti extends DaftarAnggota {
     }
 }
 
-class KoordinatorBidangDanStaff extends DaftarAnggota {
+class KoordinatorBidangDanStaff extends Komunitas {
     private String bidang;
     private String tugas;
     

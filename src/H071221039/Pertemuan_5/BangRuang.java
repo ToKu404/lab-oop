@@ -1,5 +1,5 @@
 package H071221039.Pertemuan_5;
-public class BangunRuang {
+public class BangRuang {
     public double hitungLuas(){
         return 0;
     }
@@ -8,7 +8,7 @@ public class BangunRuang {
     }
 }
 
-class Kubus extends BangunRuang {
+class Kubus extends BangRuang {
     private double sisi;
 
     public Kubus() {}
@@ -28,7 +28,7 @@ class Kubus extends BangunRuang {
     }
 }
 
-class Balok extends BangunRuang {
+class Balok extends BangRuang {
     private double panjang;
     private double lebar;
     private double tinggi;
@@ -56,7 +56,7 @@ class Balok extends BangunRuang {
     }
 }
 
-class Bola extends BangunRuang {
+class Bola extends BangRuang {
     private double jari;
 
     public Bola() {}
@@ -76,7 +76,7 @@ class Bola extends BangunRuang {
     }
 }
 
-class Tabung extends BangunRuang {
+class Tabung extends BangRuang {
     private double jari;
     private double tinggi;
 
