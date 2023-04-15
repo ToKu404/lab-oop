@@ -1,4 +1,4 @@
-package No1;
+package H071221028.Pertemuan_5.No1;
 
 
 public class Main {
@@ -7,9 +7,9 @@ public class Main {
         System.out.println(segitiga.luas());
         System.out.println(segitiga.keliling());
 
-        Tabung kubus = new Kubus(6);
-        System.out.println(tabung.volume());
-        System.out.println(tabung.luasPermukaan());
+        Kubus kubus = new Kubus(6);
+        System.out.println(kubus.volume());
+        System.out.println(kubus.luasPermukaan());
         
     }
 }

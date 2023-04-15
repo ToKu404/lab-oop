@@ -1,3 +1,4 @@
+package H071221028.Pertemuan_5.No2;
 public class MainAnggota {
     public static void main(String[] args) { //method yang dapat dipakai tanpa harus mendeklarasikan suatu class 
         PengurusInti pengurusInti = new PengurusInti("Diva", 19, "Wanita", "Ketua");

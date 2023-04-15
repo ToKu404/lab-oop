@@ -1,4 +1,4 @@
-package No1;
+package H071221028.Pertemuan_5.No1;
 
 public class BangunDatar {
     protected double nilaiA;
@@ -6,8 +6,8 @@ public class BangunDatar {
     protected double nilaiC;
     protected double nilaiD;
 
-    protected double keliling;
-    protected double luas;
+    // protected double keliling;
+    // protected double luas;
 
     public BangunDatar(double nilaiA) {
         this.nilaiA = nilaiA;
@@ -32,11 +32,11 @@ public class BangunDatar {
     }
     
     public double keliling(){
-        return keliling;
+        return 0;
     }
 
     public double luas(){
-        return luas;
+        return 0;
     }
 
 }

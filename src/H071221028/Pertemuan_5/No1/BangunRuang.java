@@ -58,8 +58,8 @@ class Balok extends BangunRuang{
 
 class Bola extends BangunRuang{
 
-    public Bola (double sisi, double jariJari){
-        super(sisi, jariJari);
+    public Bola (double sisi){
+        super(sisi);
     }
  
     public double volume(){
@@ -67,7 +67,7 @@ class Bola extends BangunRuang{
     }
 
     public double luasPermukaan(){
-        return (4*Math.PI*jariJ);
+        return (4*Math.PI*nilaiA);
     }
 }
 
@@ -78,10 +78,10 @@ class Tabung extends BangunRuang{
     }
 
     public double volume(){
-        return Luas()*nilaiB;
+        return (Math.PI*nilaiA*nilaiA*nilaiB);
     }
 
     public double luasPermukaan(){
-        return (2*Luas())+Keliling();
+        return (2*Math.PI*nilaiA*(nilaiA+nilaiB));
     }
 }
