@@ -18,12 +18,12 @@ class Kubus extends BangRuang {
     }
 
     @Override
-    double hitungLuas() {
+    public double hitungLuas() {
         return 6 * sisi * sisi;
     }
 
     @Override
-    double hitungVolume() {
+    public double hitungVolume() {
         return sisi * sisi * sisi;
     }
 }
@@ -46,12 +46,12 @@ class Balok extends BangRuang {
     }
 
     @Override
-    double hitungLuas() {
+    public double hitungLuas() {
         return 2 * ((panjang * lebar) + (panjang * tinggi) + (lebar * tinggi)) ;
     }
 
     @Override
-    double hitungVolume() {
+    public double hitungVolume() {
         return panjang * lebar * tinggi;
     }
 }
@@ -66,12 +66,12 @@ class Bola extends BangRuang {
     }
 
     @Override
-    double hitungLuas() {
+    public double hitungLuas() {
         return 4 * Math.PI * jari * jari;
     }
 
     @Override
-    double hitungVolume() {
+    public double hitungVolume() {
         return 4/3 * Math.PI * jari * jari * jari;
     }
 }
@@ -90,12 +90,12 @@ class Tabung extends BangRuang {
     }
 
     @Override
-    double hitungLuas() {
+    public double hitungLuas() {
         return 2 * Math.PI * jari * (jari + tinggi);
     }
 
     @Override
-    double hitungVolume() {
+    public double hitungVolume() {
         return Math.PI * jari * jari * tinggi;
     }
 }

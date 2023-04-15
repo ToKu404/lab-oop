@@ -1,7 +1,7 @@
 package H071221039.Pertemuan_5;
 import java.util.Scanner;
 
-class Main1 {
+class MainNo1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println(" ==== BANGUN RUANG ==== ");

@@ -1,5 +1,5 @@
 package H071221039.Pertemuan_5;
-public class Main2 {
+public class MainNo2 {
     public static void main(String[] args) {
         // create objects
         PengurusInti pengurusInti = new PengurusInti("Mega", "Perempuan", "PK7", "0812345678", "Ketua","5 Tahun");
