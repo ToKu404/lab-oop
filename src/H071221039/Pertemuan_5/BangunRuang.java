@@ -1,6 +1,5 @@
 package H071221039.Pertemuan_5;
-public class Bang
-Ruang {
+public class BangRuang {
     public double hitungLuas(){
         return 0;
     }
@@ -9,8 +8,7 @@ Ruang {
     }
 }
 
-class Kubus extends Bang
-Ruang {
+class Kubus extends BangRuang {
     private double sisi;
 
     public Kubus() {}
@@ -20,18 +18,17 @@ Ruang {
     }
 
     @Override
-    double hitungLuas() {
+    public double hitungLuas() {
         return 6 * sisi * sisi;
     }
 
     @Override
-    double hitungVolume() {
+    public double hitungVolume() {
         return sisi * sisi * sisi;
     }
 }
 
-class Balok extends Bang
-Ruang {
+class Balok extends BangRuang {
     private double panjang;
     private double lebar;
     private double tinggi;
@@ -49,18 +46,17 @@ Ruang {
     }
 
     @Override
-    double hitungLuas() {
+    public double hitungLuas() {
         return 2 * ((panjang * lebar) + (panjang * tinggi) + (lebar * tinggi)) ;
     }
 
     @Override
-    double hitungVolume() {
+    public double hitungVolume() {
         return panjang * lebar * tinggi;
     }
 }
 
-class Bola extends Bang
-Ruang {
+class Bola extends BangRuang {
     private double jari;
 
     public Bola() {}
@@ -70,18 +66,17 @@ Ruang {
     }
 
     @Override
-    double hitungLuas() {
+    public double hitungLuas() {
         return 4 * Math.PI * jari * jari;
     }
 
     @Override
-    double hitungVolume() {
+    public double hitungVolume() {
         return 4/3 * Math.PI * jari * jari * jari;
     }
 }
 
-class Tabung extends Bang
-Ruang {
+class Tabung extends BangRuang {
     private double jari;
     private double tinggi;
 
@@ -95,12 +90,12 @@ Ruang {
     }
 
     @Override
-    double hitungLuas() {
+    public double hitungLuas() {
         return 2 * Math.PI * jari * (jari + tinggi);
     }
 
     @Override
-    double hitungVolume() {
+    public double hitungVolume() {
         return Math.PI * jari * jari * tinggi;
     }
 }
