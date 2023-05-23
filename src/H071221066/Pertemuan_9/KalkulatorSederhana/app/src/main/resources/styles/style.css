@@ -1,0 +1,52 @@
+Text {
+	-fx-font-size: 20px;
+	-fx-font-family: "Algerian";
+}
+
+Label {
+	-fx-text-fill: #051912;
+	-fx-font-size: 20px;
+	-fx-font-family: "Times New Roman";
+	-fx-font-weight: bold;
+}
+
+TextField {
+	-fx-background-color: #dad7d8;
+	-fx-min-width: 100px;
+	-fx-min-height: 40px;
+	-fx-max-width: 350px;
+	-fx-max-height: 70px;
+	-fx-font-size: 20px;
+	-fx-font-family: "Times New Roman";
+}
+Button {
+	/* -fx-background-color: #cdf5e2; */
+	-fx-text-fill: #0c0c0c;
+	-fx-min-width: 100px;
+	-fx-min-height: 40px;
+	-fx-max-width: 200px;
+	-fx-max-height: 80px;
+	-fx-font-size: 18px;
+	-fx-font-family: "Times New Roman";
+	-fx-font-weight: bold;
+}
+
+#startButton {
+	-fx-background-color: #f7f1bd;
+}
+
+#kubus {
+	-fx-background-color: #f7f1bd;
+}
+
+#suhu {
+	-fx-background-color: #f7f1bd;
+}
+
+#clear {
+	-fx-background-color: #fb7474;
+}
+
+#back {
+	-fx-background-color: #929292;
+}
