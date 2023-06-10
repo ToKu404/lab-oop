@@ -1,0 +1,55 @@
+@startum diagram
+
+Dog <-- Pitbull
+Dog <-- siberianHusky
+Dog <-- Bulldog
+Dog <-- germanShepherd
+
+class Dog {
+    {static} #position : int
+    {static} #averageLenght : int
+    + move() : void
+    + describe() : void
+}
+
+class Pitbull {
+    + move() : void
+    + describe() : void
+}
+
+class siberianHusky {
+    + move() : void
+    + describe() : void
+}
+
+class Bulldog {
+    + move() : void
+    + describe() : void
+}
+
+class germanShepherd {
+    + move() : void
+    + describe() : void
+}
+
+SC <-- Smartphone
+SC <-- Car
+
+class SC {
+    + move() : void
+}
+
+class Smartphone {
+    {static} #price : int
+    {static} #brand : string
+    + move() : void
+}
+
+class Car {
+    {static} #totalForwardGear : int
+    {static} #color : string
+    {static} #maxSpeed : int
+    + move() : void
+}
+
+@endum diagram
